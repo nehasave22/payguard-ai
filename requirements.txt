@@ -1,0 +1,17 @@
+# PayGuard AI — Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core application
+streamlit>=1.40.0
+openai>=1.80.0
+python-dotenv>=1.0.0
+
+# HTTP requests (CMS Coverage API)
+requests>=2.31.0
+
+# PDF export
+reportlab>=4.0.0
+
+# Data validation (structured outputs)
+pydantic==2.11.5
+

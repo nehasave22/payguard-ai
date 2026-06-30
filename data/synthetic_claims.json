@@ -1,0 +1,50 @@
+[
+  {
+    "case_id": "CLM-2025-001",
+    "claim_type": "Professional",
+    "provider_id": "PRV-4421",
+    "provider_name": "Sunrise Medical Group",
+    "provider_specialty": "Orthopedic Surgery",
+    "patient_age": 34,
+    "patient_gender": "Male",
+    "chief_complaint": "Mild lower back pain after lifting a box at work, no radiating pain, no neurological symptoms, resolved partially with ibuprofen",
+    "diagnosis_history": "No prior spine conditions, no surgeries, healthy BMI",
+    "vitals": "BP 118/76, HR 72, SpO2 99%, no fever",
+    "submitted_icd_codes": ["M54.5"],
+    "submitted_cpt_codes": ["99215", "72148", "27447", "97001"],
+    "billed_amount": 18500,
+    "expected_flag": "UPCODING"
+  },
+  {
+    "case_id": "CLM-2025-002",
+    "claim_type": "Facility",
+    "provider_id": "PRV-8834",
+    "provider_name": "Advanced Wellness Center",
+    "provider_specialty": "General Practice",
+    "patient_age": 71,
+    "patient_gender": "Female",
+    "chief_complaint": "Routine annual wellness visit, patient reports feeling well, no acute complaints",
+    "diagnosis_history": "Controlled hypertension, stable Type 2 Diabetes",
+    "vitals": "BP 128/82, HR 68, SpO2 98%, Temp 98.6F",
+    "submitted_icd_codes": ["Z00.00", "I10", "E11.9"],
+    "submitted_cpt_codes": ["99397", "93306", "70553", "80053", "85025", "36415", "99213"],
+    "billed_amount": 12400,
+    "expected_flag": "SERVICES_NOT_RENDERED"
+  },
+  {
+    "case_id": "CLM-2025-003",
+    "claim_type": "Professional",
+    "provider_id": "PRV-2210",
+    "provider_name": "Downtown Cardiology Associates",
+    "provider_specialty": "Cardiology",
+    "patient_age": 67,
+    "patient_gender": "Female",
+    "chief_complaint": "Chest pain, shortness of breath, fatigue for 3 days, worsening on exertion",
+    "diagnosis_history": "Hypertension, Type 2 Diabetes, former smoker, family history of CAD",
+    "vitals": "BP 158/94, HR 102, SpO2 94%, Temp 98.6F",
+    "submitted_icd_codes": ["I20.9", "I10", "E11.9"],
+    "submitted_cpt_codes": ["99223", "93000", "93306", "85025"],
+    "billed_amount": 4100,
+    "expected_flag": "CLEAN"
+  }
+]

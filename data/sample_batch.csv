@@ -1,0 +1,6 @@
+provider_name,provider_specialty,patient_age,patient_gender,chief_complaint,diagnosis_history,vitals,icd_codes,cpt_codes,billed_amount
+Sunrise Medical Group,Orthopedic Surgery,34,Male,"Mild lower back pain after lifting, no neurological symptoms",No prior spine conditions,BP 118/76 HR 72 SpO2 99%,M54.5,"99215,72148,27447,97001",18500
+Advanced Wellness Center,General Practice,71,Female,"Routine annual wellness visit, no acute complaints","Controlled hypertension, stable diabetes",BP 128/82 HR 68 SpO2 98%,"Z00.00,I10,E11.9","99397,93306,70553,80053,85025",12400
+Downtown Cardiology Associates,Cardiology,67,Female,"Chest pain shortness of breath fatigue 3 days worsening on exertion","Hypertension diabetes former smoker family history CAD",BP 158/94 HR 102 SpO2 94%,"I20.9,I10,E11.9","99223,93000,93306,85025",4100
+Regional Pain Management,General Practice,58,Male,"10 minute medication refill no new symptoms no physical exam","Chronic lower back pain well controlled",BP 122/78 HR 70 SpO2 99%,M54.5,"99215,97001,72148,64483",9800
+Eastside Urgent Care,Emergency Medicine,42,Female,"Fever 101.8F productive cough 5 days mild shortness of breath",No significant history,BP 124/80 HR 88 SpO2 96%,"J06.9,R05","99213,94640",380
