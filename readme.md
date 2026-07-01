@@ -3,7 +3,7 @@
 **Explainable Agentic AI for Healthcare Payment Integrity**
 
 PayGuard AI is a proof-of-concept demonstrating how chain-of-thought reasoning across specialized AI agents can support — not replace — human FWA (Fraud, Waste, and Abuse) detection in healthcare payment integrity workflows.
-
+🚀 **[Try the Live Demo](https://payguard-ai-jv5rvuxekszih7ewdxrlcr.streamlit.app)**
 > ⚠️ **Important:** This system produces AI-assisted recommendations for human review only. No claim determination is made autonomously. All outputs require human SIU investigator validation before any action is taken.
 
 ---
